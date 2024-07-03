@@ -19,10 +19,8 @@ body {
 #text_1, #text_2 {
     color: white;
     font-size: 1.5em;
-    /* font-family: 'Roboto', sans-serif; */
     font-family: "Open Sans", sans-serif;
     font-weight: 300;
-
     margin: 0;
 }
 
@@ -35,7 +33,7 @@ body {
 
 .link-item {
     display: flex;
-    align-items: center;
+    align-items: center; /* Centrer verticalement les éléments */
     gap: 10px; /* Espace entre l'icône et le texte */
     margin-top: 10px; /* Espace entre les éléments */
     color: white;
@@ -44,13 +42,15 @@ body {
 }
 
 .link-item a {
+    display: flex;
+    align-items: center; /* Centrer verticalement les éléments dans le lien */
     color: #F4CD4C;
     text-decoration: none;
 }
 
 .link-item i {
     font-size: 2em;
-    margin-right: 10%;
+    margin-right: 20%;
     color: white;
 }
 
@@ -69,5 +69,4 @@ body {
     .link-item i {
         font-size: 1.7em;
     }
-    
 }
