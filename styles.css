@@ -20,7 +20,8 @@ body {
     color: white;
     font-size: 1.5em;
     /* font-family: 'Roboto', sans-serif; */
-    font-family: "Petit Formal Script", cursive;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
 
     margin: 0;
 }
@@ -55,7 +56,7 @@ body {
 
 @media only screen and (max-width: 600px) {
     #text_1, #text_2 {
-        font-size: 1.3em;
+        font-size: 1.55em;
     }
 
     #links {
