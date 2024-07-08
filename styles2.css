@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 body {
     height: 100vh;
     margin: 0;
-    background: linear-gradient(180deg, #011B34, #0070B8);
+    background: linear-gradient(180deg, #ffffff, #0A2E44);
 }
 
 #logo {
@@ -17,10 +19,10 @@ body {
 }
 
 #text_1, #text_2 {
-    color: white;
+    color: #0A2E44;
     font-size: 1.5em;
     font-family: "Open Sans", sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     margin: 0;
 }
 
@@ -38,24 +40,21 @@ body {
     margin-top: 10px; /* Espace entre les éléments */
     color: white;
     font-size: 1.5em;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 500;
 }
 
 .link-item a {
     display: flex;
     align-items: center; /* Centrer verticalement les éléments dans le lien */
-    color: #F4CD4C;
+    color: #001e30;
     text-decoration: none;
 }
 
 .link-item i {
     font-size: 2em;
     margin-right: 20%;
-    color: white;
-}
-
-#mail{
-    margin-left: 10%;
+    color: #F55346;
 }
 
 @media only screen and (max-width: 600px) {
@@ -74,3 +73,4 @@ body {
         font-size: 1.7em;
     }
 }
+
