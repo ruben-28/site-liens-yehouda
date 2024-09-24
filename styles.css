@@ -1,14 +1,21 @@
 body {
     height: 100vh;
     margin: 0;
+    font-family: "Open Sans", sans-serif;
     background: linear-gradient(180deg, #011B34, #0070B8);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
 
 #logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px; /* Ajustez l'espacement supérieur si nécessaire */
+    margin-bottom: 2rem; /* Espace ajusté sous le logo */
+}
+
+#logo img {
+    width: 150px; /* Ajustez la taille du logo si nécessaire */
 }
 
 #text {
