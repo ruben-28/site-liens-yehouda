@@ -39,6 +39,8 @@ body {
     color: white;
     font-size: 1.5em;
     font-family: 'Roboto', sans-serif;
+    width: 100%; /* Prendre toute la largeur pour aligner les textes */
+    justify-content: flex-start;
 }
 
 .link-item a {
@@ -46,16 +48,24 @@ body {
     align-items: center; /* Centrer verticalement les éléments dans le lien */
     color: #F4CD4C;
     text-decoration: none;
+    width: 100%;
 }
 
 .link-item i {
     font-size: 2em;
-    margin-right: 20%;
     color: white;
+    width: 40px; /* Largeur fixe pour aligner les icônes */
+    text-align: center; /* Centrer l'icône dans le cadre */
 }
 
-#mail{
-    margin-left: 10%;
+.link-item p {
+    margin-left: 30px; /* Augmentation de l'espace entre l'icône et le texte */
+    flex-grow: 1; /* Assurer que le texte utilise l'espace disponible */
+    white-space: nowrap; /* Empêcher le texte de passer à la ligne */
+}
+
+#mail {
+    margin-left: 30px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -66,6 +76,7 @@ body {
     #links {
         margin-top: 15%;
     }
+    
     .link-item {
         font-size: 1.7em;
     }
